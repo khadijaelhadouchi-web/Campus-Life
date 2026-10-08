@@ -1,0 +1,28 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+ .navbar .logo{
+    font-style:bold;
+    font-weight:900;
+    color:#0A1222;
+ }
+.menu{
+    display:flex;
+    gap: 25px;
+
+}
+.navbar .search{
+   
+     font-style:bold;
+    font-weight:900;
+    color:#0A1222;
+
+}
+.navbar .rejoindre{
+    background-color:#034BFF;
+    color:#FFFFFF;
+}
