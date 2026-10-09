@@ -47,10 +47,37 @@
 }
 #but-compus{
     background-color: #034BFF;
+     border: none;
+    color: #FFFFFF;
 }
 #but-evenements{
-    
+   
+    border: 2px solid #8EABFF;
+    color: #FFFFFF;
+    background-color: transparent;
+
 }
 .statistiques{
     display: flex;
+    align-items: center;
+}
+.statistiques .stat-box1{
+    display: flex;
+}
+.statistiques .stat-box2{
+    display: flex;
+}
+.statistiques .stat-box3{
+    display: flex;
+}
+.statistiques .stat-box4{
+    display: flex;
+}
+hr{
+    border: none;
+    background-color: #47526A;
+    width: 1px;
+    height: 24px;
+    top: 35px;
+    left: 244px;
 }
