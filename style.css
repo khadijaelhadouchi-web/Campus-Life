@@ -30,5 +30,27 @@
     background-color: #08111d;
     display:flex;
     color: #FFFFFF;
+
+}
+.profiel{
+   display: flex;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+#life{
+    color: #034BFF;
+}
+#ico{
+    color: #C7F64A;
+}
+#but-compus{
+    background-color: #034BFF;
+}
+#but-evenements{
     
+}
+.statistiques{
+    display: flex;
 }
