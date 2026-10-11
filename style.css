@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content:space-evenly;
+   padding: 10px;
 
 }
  .navbar .logo{
@@ -22,22 +23,45 @@
     color:#0A1222;
 
 }
+
 .navbar .rejoindre{
     background-color:#034BFF;
     color:#FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
 }
 .hero_section {
     background-color: #08111d;
     display:flex;
     color: #FFFFFF;
+   
 
+}
+.text{
+ padding: 50px;
 }
 .profiel{
    display: flex;
+   justify-content: space-between;
+}
+.text >h1{
+    font-size: 76px;
+    font-weight: 900;
 }
 .icon{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+.icon div{
+    background-color: #8EABFF;
+    
+   
+   
+    border-radius: 15px;
+    
+
+
 }
 #life{
     color: #034BFF;
@@ -45,16 +69,21 @@
 #ico{
     color: #C7F64A;
 }
+
 #but-compus{
     background-color: #034BFF;
      border: none;
     color: #FFFFFF;
+    padding:10px ;
+    border-radius: 5px;
 }
 #but-evenements{
    
     border: 2px solid #8EABFF;
     color: #FFFFFF;
     background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
 
 }
 .statistiques{
@@ -78,6 +107,4 @@ hr{
     background-color: #47526A;
     width: 1px;
     height: 24px;
-    top: 35px;
-    left: 244px;
 }
